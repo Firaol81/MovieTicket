@@ -1,8 +1,8 @@
-﻿using MovieTicket.Models;
+﻿// BookingService.cs
+using MovieTicket.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-
-
 
 namespace MovieTicket.Services
 {

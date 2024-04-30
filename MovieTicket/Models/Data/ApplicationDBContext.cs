@@ -2,7 +2,7 @@
 using MovieTicket.Models;
 
 
-namespace MovieTicket.Data
+namespace MovieTicket.Models
 {
     public class ApplicationDBContext : DbContext
     {
@@ -16,7 +16,8 @@ namespace MovieTicket.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // Configure any additional settings for your entities here
+            modelBuilder.Entity<Movie>()
+               .Ignore(m => m.Showtimes);
         }
     }
 }

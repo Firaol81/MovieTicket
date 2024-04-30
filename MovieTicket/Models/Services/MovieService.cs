@@ -1,4 +1,5 @@
-﻿using MovieTicket.Models;
+﻿// MovieService.cs
+using MovieTicket.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

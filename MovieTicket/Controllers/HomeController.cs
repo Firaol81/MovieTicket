@@ -1,5 +1,4 @@
 using Microsoft.AspNetCore.Mvc;
-using MovieTicket.Models;
 using MovieTicket.Services;
 
 namespace MovieTicket.Controllers
